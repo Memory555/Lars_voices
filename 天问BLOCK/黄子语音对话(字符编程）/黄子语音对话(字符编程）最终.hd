@@ -20,156 +20,87 @@ void asr_code_handler_app(){
         case 1:{
           //输入代码
           //code here
-          int ran0 = rand() % 15;
+          int ran0 = rand() % 8;
           if(ran0 == 0){
             //{playid:10500,voice:青火}
             play_audio(10500);
           }
           if(ran0 == 1){
-            //{playid:10501,voice:爱自己}
-            play_audio(10501);
-          }
-          if(ran0 == 2){
             //{playid:10502,voice:再次遇见}
             play_audio(10502);
           }
-          if(ran0 == 3){
+          if(ran0 == 2){
             //{playid:10503,voice:钢琴二}
             play_audio(10503);
           }
-          if(ran0 == 4){
-            //{playid:10504,voice:钢琴}
-            play_audio(10504);
+          if(ran0 == 3){
+            //{playid:10514,voice:想见你}
+            play_audio(10514);
           }
-          if(ran0 == 5){
+          if(ran0 == 4){
             //{playid:10505,voice:花开的路口}
             play_audio(10505);
           }
-          if(ran0 == 6){
+          if(ran0 == 5){
             //{playid:10506,voice:那年夏天}
             play_audio(10506);
           }
-          if(ran0 == 7){
-            //{playid:10507,voice:牛仔}
-            play_audio(10507);
-          }
-          if(ran0 == 8){
-            //{playid:10508,voice:猪猪侠}
-            play_audio(10508);
-          }
-          if(ran0 == 9){
+          if(ran0 == 6){
             //{playid:10509,voice:亲爱的旅人}
             play_audio(10509);
           }
-          if(ran0 == 10){
-            //{playid:10510,voice:真的爱你}
-            play_audio(10510);
-          }
-          if(ran0 == 11){
+          if(ran0 == 7){
             //{playid:10511,voice:知足}
             play_audio(10511);
-          }
-          if(ran0 == 12){
-            //{playid:10512,voice:除了快乐禁止入内}
-            play_audio(10512);
-          }
-          if(ran0 == 13){
-            //{playid:10513,voice:歌谣}
-            play_audio(10513);
-          }
-          if(ran0 == 14){
-            //{playid:10514,voice:想见你}
-            play_audio(10514);
           }
           break;}
         case 2:{
           //输入代码
           //code here
-          int ran1 = rand() % 18;
+          int ran1 = rand() % 11;
           if(ran1 == 0){
             //{playid:10515,voice:自己准备好}
             play_audio(10515);
           }
           if(ran1 == 1){
-            //{playid:10516,voice:待会见}
-            play_audio(10516);
-          }
-          if(ran1 == 2){
             //{playid:10517,voice:收获自己的快乐}
             play_audio(10517);
           }
-          if(ran1 == 3){
-            //{playid:10518,voice:更好}
-            play_audio(10518);
-          }
-          if(ran1 == 4){
-            //{playid:10519,voice:开玩笑}
-            play_audio(10519);
-          }
-          if(ran1 == 5){
-            //{playid:10520,voice:立场}
-            play_audio(10520);
-          }
-          if(ran1 == 6){
-            //{playid:10521,voice:未来的日子让我们并肩}
-            play_audio(10521);
-          }
-          if(ran1 == 7){
-            //{playid:10522,voice:你不知道吧}
-            play_audio(10522);
-          }
-          if(ran1 == 8){
-            //{playid:10523,voice:情绪}
-            play_audio(10523);
-          }
-          if(ran1 == 9){
-            //{playid:10524,voice:人在每一个阶段}
-            play_audio(10524);
-          }
-          if(ran1 == 10){
-            //{playid:10525,voice:事业有成}
-            play_audio(10525);
-          }
-          if(ran1 == 11){
-            //{playid:10526,voice:运动}
-            play_audio(10526);
-          }
-          if(ran1 == 12){
-            //{playid:10527,voice:祝大家吃好喝好}
-            play_audio(10527);
-          }
-          if(ran1 == 13){
-            //{playid:10528,voice:自己爱自己}
-            play_audio(10528);
-          }
-          if(ran1 == 14){
-            //{playid:10529,voice:有音乐}
-            play_audio(10529);
-          }
-          if(ran1 == 15){
-            //{playid:10530,voice:你要快乐}
-            play_audio(10530);
-          }
-          if(ran1 == 16){
-            //{playid:10531,voice:希望蟹黄堡}
-            play_audio(10531);
-          }
-          if(ran1 == 17){
+          if(ran1 == 2){
             //{playid:10532,voice:晚饭都吃了吗}
             play_audio(10532);
           }
-          break;}
-        case 3:{
-          //输入代码
-          //code here
-          int ran2 = rand() % 2;
-          if(ran2 == 0){
-            //{playid:10533,voice:财运莲莲}
-            play_audio(10533);
+          if(ran1 == 3){
+            //{playid:10519,voice:开玩笑}
+            play_audio(10519);
           }
-          if(ran2 == 1){
-            //{playid:10534,voice:好运来}
-            play_audio(10534);
+          if(ran1 == 4){
+            //{playid:10520,voice:立场}
+            play_audio(10520);
+          }
+          if(ran1 == 5){
+            //{playid:10521,voice:未来的日子让我们并肩}
+            play_audio(10521);
+          }
+          if(ran1 == 6){
+            //{playid:10525,voice:事业有成}
+            play_audio(10525);
+          }
+          if(ran1 == 7){
+            //{playid:10527,voice:祝大家吃好喝好}
+            play_audio(10527);
+          }
+          if(ran1 == 8){
+            //{playid:10528,voice:自己爱自己}
+            play_audio(10528);
+          }
+          if(ran1 == 9){
+            //{playid:10530,voice:你要快乐}
+            play_audio(10530);
+          }
+          if(ran1 == 10){
+            //{playid:10531,voice:希望蟹黄堡}
+            play_audio(10531);
           }
           break;}
         case 4:{
@@ -216,52 +147,47 @@ void hardware_init(){
 void setup()
 {
   vol_set(4);
-  //{ID:1,keyword:"命令词",ASR:"想听你唱歌",ASRTO:""}
+  //{ID:1,keyword:"命令词",ASR:"唱首歌",ASRTO:""}
   //{ID:2,keyword:"命令词",ASR:"随便说点什么",ASRTO:""}
-  //{ID:3,keyword:"命令词",ASR:"想听你唱首喜庆的歌",ASRTO:""}
   //{ID:4,keyword:"命令词",ASR:"讲个冷笑话",ASRTO:""}
   //{ID:5,keyword:"命令词",ASR:"你在干嘛",ASRTO:"吃好吃的"}
   //{ID:6,keyword:"唤醒词",ASR:"黄子",ASRTO:"你好"}
   //{ID:7,keyword:"唤醒词",ASR:"你骗人",ASRTO:"我真不骗人"}
-  //{ID:8,keyword:"唤醒词",ASR:"我身体不舒服",ASRTO:"好好休息"}
-  //{ID:9,keyword:"命令词",ASR:"我想见你",ASRTO:"创造机会"}
+  //{ID:8,keyword:"唤醒词",ASR:"身体不舒服",ASRTO:"好好休息"}
+  //{ID:9,keyword:"命令词",ASR:"想见你",ASRTO:"创造机会"}
   //{ID:10,keyword:"命令词",ASR:"你想我吗",ASRTO:"我最近尊嘟特别想你"}
   //{ID:11,keyword:"命令词",ASR:"叫姐姐",ASRTO:"姐姐"}
   //{ID:12,keyword:"命令词",ASR:"可以劝学吗",ASRTO:"我劝了你真的学吗"}
   //{ID:13,keyword:"命令词",ASR:"你喜欢我吗",ASRTO:"我喜欢你"}
   //{ID:14,keyword:"命令词",ASR:"你爱我吗",ASRTO:"我爱你"}
-  //{ID:15,keyword:"命令词",ASR:"我爱你",ASRTO:"我也爱你"}
-  //{ID:16,keyword:"命令词",ASR:"我最近好迷茫",ASRTO:"迷茫"}
+  //{ID:16,keyword:"命令词",ASR:"最近好迷茫",ASRTO:"迷茫"}
   //{ID:17,keyword:"命令词",ASR:"黄元元",ASRTO:"黄元元"}
   //{ID:18,keyword:"命令词",ASR:"想和你打电话",ASRTO:"打电话"}
-  //{ID:19,keyword:"命令词",ASR:"我不开心",ASRTO:"安慰安慰"}
+  //{ID:19,keyword:"命令词",ASR:"不开心",ASRTO:"安慰安慰"}
   //{ID:23,keyword:"命令词",ASR:"抱抱",ASRTO:"hughug"}
-  //{ID:24,keyword:"命令词",ASR:"我最近生活好不顺利",ASRTO:"生活总要继续"}
-  //{ID:25,keyword:"命令词",ASR:"我最近运气好差",ASRTO:"好运马上要来了"}
+  //{ID:24,keyword:"命令词",ASR:"最近生活好不顺利",ASRTO:"生活总要继续"}
+  //{ID:25,keyword:"命令词",ASR:"最近运气好差",ASRTO:"好运马上要来了"}
   //{ID:26,keyword:"命令词",ASR:"我最近心情不好",ASRTO:"心情不好"}
   //{ID:27,keyword:"命令词",ASR:"心情不好怎么调节",ASRTO:"心情不好怎么调节"}
   //{ID:28,keyword:"命令词",ASR:"我好难过",ASRTO:"hughug"}
   //{ID:29,keyword:"命令词",ASR:"不想上学怎么办",ASRTO:"不想上学"}
   //{ID:30,keyword:"命令词",ASR:"最近在复习好累",ASRTO:"最近在复习好累"}
-  //{ID:31,keyword:"命令词",ASR:"我生病了",ASRTO:"早日康复"}
+  //{ID:31,keyword:"命令词",ASR:"生病了",ASRTO:"早日康复"}
   //{ID:32,keyword:"命令词",ASR:"失眠了",ASRTO:"失眠"}
   //{ID:33,keyword:"命令词",ASR:"我今天要考试",ASRTO:"考试顺利"}
   //{ID:34,keyword:"命令词",ASR:"你会一直在吗",ASRTO:"一直在"}
   //{ID:35,keyword:"命令词",ASR:"你说什么",ASRTO:"我说，好好休息"}
   //{ID:36,keyword:"命令词",ASR:"我六不六",ASRTO:"666"}
-  //{ID:37,keyword:"命令词",ASR:"新年祝福",ASRTO:"心想事成"}
   //{ID:38,keyword:"命令词",ASR:"想听你唱圣诞歌",ASRTO:"圣诞歌"}
   //{ID:39,keyword:"命令词",ASR:"出发",ASRTO:"出发准备中"}
   //{ID:40,keyword:"命令词",ASR:"我们还会相遇的对吧",ASRTO:"短暂分离"}
   //{ID:41,keyword:"命令词",ASR:"今天天气有点冷",ASRTO:"暖暖手"}
   //{ID:42,keyword:"命令词",ASR:"分手快乐",ASRTO:"分手快乐"}
-  //{ID:43,keyword:"命令词",ASR:"想听你朗诵一首诗",ASRTO:"诗"}
-  //{ID:44,keyword:"命令词",ASR:"高考祝福",ASRTO:"高考祝福"}
-  //{ID:45,keyword:"命令词",ASR:"说句粤语",ASRTO:"早上好"}
-  //{ID:46,keyword:"命令词",ASR:"广东话自我介绍",ASRTO:"广东话自我介绍"}
-  //{ID:47,keyword:"命令词",ASR:"英文自我介绍",ASRTO:"英文自我介绍"}
+  //{ID:44,keyword:"命令词",ASR:"早上好",ASRTO:"早上好"}
+  //{ID:45,keyword:"命令词",ASR:"说句粤语",ASRTO:"早晨"}
+  //{ID:46,keyword:"命令词",ASR:"介绍一下自己",ASRTO:"广东话自我介绍"}
   //{ID:48,keyword:"命令词",ASR:"笑一个",ASRTO:"哈哈哈"}
-  //{ID:49,keyword:"命令词",ASR:"说舍不得我",ASRTO:"好舍不得你啊"}
+  //{ID:49,keyword:"命令词",ASR:"舍不得你",ASRTO:"好舍不得你啊"}
   //{ID:50,keyword:"命令词",ASR:"哄睡",ASRTO:"放下手机"}
   //{ID:51,keyword:"命令词",ASR:"顶峰相见",ASRTO:"顶峰相见"}
   //{ID:52,keyword:"命令词",ASR:"黄子弘凡",ASRTO:"我在"}
@@ -273,10 +199,8 @@ void setup()
   //{ID:58,keyword:"命令词",ASR:"我会追你一辈子的",ASRTO:"好，我努力演一辈子"}
   //{ID:59,keyword:"命令词",ASR:"叫我起床",ASRTO:"起床音"}
   //{ID:60,keyword:"命令词",ASR:"骂我一句",ASRTO:"啥也不是"}
-  //{ID:63,keyword:"命令词",ASR:"想听你讲个故事",ASRTO:"神农尝百草"}
   //{ID:64,keyword:"命令词",ASR:"今天是我生日",ASRTO:"生日快乐"}
   //{ID:65,keyword:"命令词",ASR:"我送你的礼物怎么样",ASRTO:"wow，非常特别"}
-  //{ID:66,keyword:"命令词",ASR:"想听你讲个睡前故事",ASRTO:"睡前故事"}
   //{ID:67,keyword:"命令词",ASR:"你想说什么",ASRTO:"今天天气很差，我喜欢你"}
   //{ID:68,keyword:"命令词",ASR:"怎么避免熬夜",ASRTO:"通宵"}
   //{ID:69,keyword:"命令词",ASR:"晚安",ASRTO:"晚安啦"}
@@ -288,7 +212,6 @@ void setup()
   //{ID:75,keyword:"命令词",ASR:"早上好",ASRTO:"早上好"}
   //{ID:76,keyword:"命令词",ASR:"你的终极目标是",ASRTO:"终极目标"}
   //{ID:77,keyword:"命令词",ASR:"拜拜",ASRTO:"好舍不得你啊"}
-  //{ID:78,keyword:"命令词",ASR:"接下来打算在家干嘛",ASRTO:"打游戏吃饭睡觉"}
   //{ID:79,keyword:"命令词",ASR:"你此时此刻在做什么",ASRTO:"赶飞机"}
   //{ID:80,keyword:"命令词",ASR:"可以分我一口吗",ASRTO:"不可以"}
   //{ID:81,keyword:"命令词",ASR:"好慌",ASRTO:"不慌不慌"}
@@ -299,5 +222,8 @@ void setup()
   //{ID:86,keyword:"命令词",ASR:"出发啦",ASRTO:"出发啦"}
   xTaskCreate(asr_code_handler_app,"asr_code_handler_app",256,NULL,4,NULL);
 }
+
+
+
 
 /** edittype="asr_procode" */
